@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url(../../../Util/Fonts/Montserrat-Bold.ttf);
+}
+
+:root {
+    --orange: #ffa62b;
+}
+
+a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Montserrat-Bold';
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.resume {
+    flex: 4;
+    text-align: left;
+}
+
+.link {
+    flex: 1;
+}
+
+.divider {
+    color: var(--orange);
+    flex: .3;
+}

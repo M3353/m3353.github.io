@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: local('Montserrat-Medium'), url(../../Util/Fonts/Montserrat-Medium.ttf);
+}
+
+:root {
+    --dark-turqoise: #16697a;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    width: 100%;
+    position: relative;
+}
+.footer {
+    color: var(--dark-turqoise);
+    text-align: center;
+    font-family: 'Montserrat-Medium';
+    margin: 0;
+    padding: 30px;
+}

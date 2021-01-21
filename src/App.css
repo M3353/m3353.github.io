@@ -1,0 +1,16 @@
+.contentWrap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./Assets/Backgrounds/19742.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,13 +1,5 @@
-@font-face {
-    font-family: 'Montserrat-Medium';
-    src: local('Montserrat-Medium'), url(../../Util/Fonts/Montserrat-Medium.ttf);
-}
-
-:root {
-    --dark-turqoise: #16697a;
-}
-
 .container {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +7,7 @@
     width: 100%;
 }
 .footer {
-    color: var(--dark-turqoise);
     text-align: center;
-    font-family: 'Montserrat-Medium';
     font-size: 16px;
     margin: 0;
     padding: 0;

@@ -1,3 +1,4 @@
+import '../../Util/styles.css';
 import './Footer.css';
 
 import React from 'react';
@@ -5,7 +6,7 @@ import React from 'react';
 function Footer(){
     return(
         <div className = "container">
-            <div className = "footer"> Site designed and built by Jack Li, 2021</div>
+            <div className = "footer medium darkText"> Site designed and built by Jack Li, 2021</div>
         </div>
     )
 }

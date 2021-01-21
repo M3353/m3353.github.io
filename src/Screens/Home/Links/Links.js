@@ -1,10 +1,12 @@
+import '../../../Util/styles.css';
 import './Links.css';
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { animated } from 'react-spring';
 
+import Resume from '../../../Assets/Pdfs/Resume.pdf';
 import Bounce from '../../../Components/Bounce/Bounce';
-import Resume from '../../../Util/Pdfs/Resume.pdf';
 
 function Links() {
     const [style1, trigger] = Bounce({ scale: 1.2 });
@@ -13,35 +15,35 @@ function Links() {
     const [style4, trigger4] = Bounce({});
 
     return (
-        <div className = 'linksContainer'>
-            <div className = 'resume'>
+        <ul className = 'linksContainer'>
+            <li className = 'resume'>
                 <animated.span style = {style1} onMouseEnter={trigger}>
-                    <a href={Resume} target="_blank" rel="noopener noreferrer">resume</a>
+                    <a href={Resume} className=" orangeText bold" target="_blank" rel="noopener noreferrer">resume</a>
                 </animated.span>
-            </div>
+            </li>
             
-            <div className = 'link'>
+            <li className = 'link'>
                 <animated.span style = {style2} onMouseEnter={trigger2}>
-                    <a href="mailto:li.jack98@gmail.com" target = "_blank" rel="noopener noreferrer">contact</a>
+                    <a href="mailto:li.jack98@gmail.com" className=" orangeText bold" target = "_blank" rel="noopener noreferrer">contact</a>
                 </animated.span>
-            </div>
+            </li>
 
-            <div className = 'divider'>|</div>
+            <li className = 'divider bold orangeText'>|</li>
             
-            <div className = 'link'>
+            <li className = 'link'>
                 <animated.span style = {style3} onMouseEnter={trigger3}>
-                    <a href="https://github.com/M3353" target = "_blank" rel="noopener noreferrer">github</a>
+                    <a href="https://github.com/M3353" className=" orangeText bold" target = "_blank" rel="noopener noreferrer">github</a>
                 </animated.span>
-            </div>
+            </li>
 
-            <div className = 'divider'>|</div>
+            <li className = 'divider bold orangeText'>|</li>
             
-            <div className = 'link'>
+            <li className = 'link'>
                 <animated.span style = {style4} onMouseEnter={trigger4}>
-                    <a href="/">artwork</a>
+                    <Link to="/traditional"> <span className=" orangeText bold">artwork</span> </Link>
                 </animated.span>
-            </div>
-        </div>
+            </li>
+        </ul>
     )
 }
 

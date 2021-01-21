@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url(../Assets/Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: local('Montserrat-ExtraBold'), url(../Assets/Fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: local('Montserrat-Medium'), url(../Assets/Fonts/Montserrat-Medium.ttf);
+}
+
+hr { border: none; height: 2px; }
+ul { list-style: none;	margin-left: 0; padding-left: 0;}
+a { text-decoration: none }
+
+:root{
+    --light-pink: #f8f0f0;
+    --dark-turqoise: #16697a;
+    --light-turqoise: #80a2a9;
+    --orange: #ffa62b;
+}
+
+.extraBold { font-family: 'Montserrat-ExtraBold' }
+.medium { font-family: 'Montserrat-Medium' }
+.bold { font-family: 'Montserrat-Bold' }
+.orangeText { color: var(--orange) }
+.darkText { color: var(--dark-turqoise) }
+.lightText { color: var(--light-turqoise) }
+.pinkBackground { background-color: var(--light-pink) }
+.lightBackground { background-color: var(--light-turqoise) }

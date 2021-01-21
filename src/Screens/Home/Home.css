@@ -1,60 +1,17 @@
-@font-face {
-    font-family: 'Montserrat-ExtraBold';
-    src: local('Montserrat-ExtraBold'), url(../../Util/Fonts/Montserrat-ExtraBold.ttf);
-}
-@font-face {
-    font-family: 'Montserrat-Medium';
-    src: local('Montserrat-Medium'), url(../../Util/Fonts/Montserrat-Medium.ttf);
-}
-
-:root {
-    --light-pink: #f8f0f0;
-    --dark-turqoise: #16697a;
-    --light-turqoise: #80a2a9;
-}
-
-hr {
-    border: none;
-    height: 2px;
-    background-color: var(--light-turqoise); 
-}
-
-.contentWrap {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    background-image: url(../../Util/Backgrounds/19742.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: var(--light-pink);
-}
-
 .sectionWrap{
+    flex: 1;
     margin: 4%;
     padding: 4%;
 }
 
 .header{
-    font-family: 'Montserrat-ExtraBold';
     font-size: 64px;
-    color: var(--dark-turqoise);
     text-align: left;
     margin-bottom: 50px;
 }
 
 .description{
-    font-family: 'Montserrat-Medium';
     font-size: 24px;
-    color: var(--light-turqoise);
     text-align: left;
     max-width: 725px;   
 }

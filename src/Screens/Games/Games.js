@@ -1,14 +1,13 @@
 import '../../Util/styles.css';
-import '../Gallery.css';
 
 import React from 'react';
 
-function Traditional() {
+function Games () {
     return(
-        <div className = "container darkText bold"> 
+        <div className = "darkText bold"> 
             Gallery Coming Soon!
         </div>
     )
 }
 
-export default Traditional
+export default Games

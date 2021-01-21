@@ -3,7 +3,7 @@ import '../Gallery.css';
 
 import React from 'react';
 
-function Traditional() {
+function Digital () {
     return(
         <div className = "container darkText bold"> 
             Gallery Coming Soon!
@@ -11,4 +11,4 @@ function Traditional() {
     )
 }
 
-export default Traditional
+export default Digital

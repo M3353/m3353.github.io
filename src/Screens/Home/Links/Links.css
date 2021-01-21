@@ -17,6 +17,7 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     font-family: 'Montserrat-Bold';
+    font-size: 20px;
     margin: 50px 0;
     width: 100%;
     text-align: center;
@@ -34,4 +35,22 @@ a {
 .divider {
     color: var(--orange);
     flex: .3;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .linksContainer{
+        font-size: 12px;
+        flex-direction: column;
+    }   
+    .resume{
+        flex: 1;
+        text-align: center;
+    } 
+    .link{
+        padding-top: 20px;
+    }
+    .divider{
+        display: none;
+    }
 }

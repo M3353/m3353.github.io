@@ -13,12 +13,19 @@
     align-items: center;
     z-index: 3;
     width: 100%;
-    position: relative;
 }
 .footer {
     color: var(--dark-turqoise);
     text-align: center;
     font-family: 'Montserrat-Medium';
+    font-size: 16px;
     margin: 0;
-    padding: 30px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .footer{
+        font-size: 12px;
+    }  
 }

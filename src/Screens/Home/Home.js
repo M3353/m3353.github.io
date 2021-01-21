@@ -15,10 +15,9 @@ function Home(){
                 <div className = "header">
                     I'm
                 {" "}<TextLoop 
-                            children = {["a Student", "a Developer", "an Artist", "a Problem Solver"]}
+                            children = {["a Student.", "a Developer.", "an Artist.", "a Problem Solver."]}
                         >
                     </TextLoop>
-                    .
                 </div>
                 <div className = "description">
                     My name is Jack Li. I'm an aspiring developer with a passion for the visual arts

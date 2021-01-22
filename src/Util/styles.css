@@ -23,6 +23,8 @@ a { text-decoration: none; color: inherit }
     --light-color: #495664;
     --highlight-color: #119991;
     --dark-highlight: #6decb9;
+
+    overflow: hidden;
 }
 
 /* Font Weights */

@@ -14,7 +14,7 @@ import Traditional from './Screens/Traditional/Traditional';
 
 function App() {
     return (
-      <div className = "contentWrap pinkBackground">
+      <div className = "contentWrap backgroundColor">
           <Router>
             <Header />
               <Switch>

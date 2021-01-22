@@ -8,8 +8,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative;
 
-    background-image: url(./Assets/Backgrounds/19742.png);
+    z-index: 10;
+    background-image: url(./Assets/Backgrounds/radialHalftone.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    font-size: 20px;
     margin: 50px 0;
     width: 100%;
     text-align: center;
@@ -13,28 +12,17 @@
     text-align: left;
 }
 
-.link {
-    flex: 1;
-}
+.link { flex: 1 }
 
-.divider {
-    flex: .3;
-}
+.divider { flex: .3 }
 
 @media only screen and (max-width: 600px)
 {
-    .linksContainer{
-        font-size: 12px;
-        flex-direction: column;
-    }   
+    .linksContainer{ flex-direction: column }   
     .resume{
         flex: 1;
         text-align: center;
     } 
-    .link{
-        padding-top: 20px;
-    }
-    .divider{
-        display: none;
-    }
+    .link{ padding-top: 20px; }
+    .divider{ display: none; }
 }

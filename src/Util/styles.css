@@ -1,3 +1,5 @@
+/* Font imports */
+
 @font-face {
     font-family: 'Montserrat-Bold';
     src: local('Montserrat-Bold'), url(../Assets/Fonts/Montserrat-Bold.ttf);
@@ -11,22 +13,50 @@
     src: local('Montserrat-Medium'), url(../Assets/Fonts/Montserrat-Medium.ttf);
 }
 
-hr { border: none; height: 2px; }
+hr { border: none; height: 2px; margin: 20px auto;}
 ul { list-style: none;	margin-left: 0; padding-left: 0;}
-a { text-decoration: none }
+a { text-decoration: none; color: inherit }
 
 :root{
-    --light-pink: #f8f0f0;
-    --dark-turqoise: #16697a;
-    --light-turqoise: #80a2a9;
-    --orange: #ffa62b;
+    --light-background: #f9fbfb;
+    --dark-color: #222831;
+    --light-color: #495664;
+    --highlight-color: #119991;
+    --dark-highlight: #6decb9;
 }
 
-.extraBold { font-family: 'Montserrat-ExtraBold' }
-.medium { font-family: 'Montserrat-Medium' }
-.bold { font-family: 'Montserrat-Bold' }
-.orangeText { color: var(--orange) }
-.darkText { color: var(--dark-turqoise) }
-.lightText { color: var(--light-turqoise) }
-.pinkBackground { background-color: var(--light-pink) }
-.lightBackground { background-color: var(--light-turqoise) }
+/* Font Weights */
+
+.extraBold { font-family: monospace; font-weight: bold; } 
+.medium { font-family: monospace; font-weight: normal; } 
+.bold { font-family: monospace; font-weight: bolder; }
+
+/* Text Colors */
+
+.highlightText { color: var(--highlight-color) } 
+.darkText { color: var(--dark-text) } 
+.lightText { color: var(--light-color) }
+
+.highlightText :hover { color: var(--dark-highlight) }
+
+/* Background colors */
+
+.backgroundColor{ background-color: white } 
+.lightBackground { background-color: var(--light-color) }
+
+/* Dynamic Font-size */
+
+.exSmallSize { font-size: 16px} 
+.smallSize { font-size: 20px } 
+.mediumSize { font-size: 24px } 
+.largeSize { font-size: 64px } 
+.exLargeSize { font-size: 80px }
+
+@media only screen and (max-width: 600px)
+{
+    .exSmallSize { font-size: 12px }
+    .smallSize { font-size: 16px }
+    .mediumSize { font-size: 16px } 
+    .largeSize { font-size: 32px} 
+    .exLargeSize { font-size: 40px }
+}

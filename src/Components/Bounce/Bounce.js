@@ -3,7 +3,7 @@ import { useSpring } from 'react-spring';
 
 function Bounce({ 
         x = 0, 
-        y = 0, 
+        y = 0,
         timing = 300,
         scale = 1.1,
         rotate = 0,

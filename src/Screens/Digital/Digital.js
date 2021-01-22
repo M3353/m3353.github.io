@@ -3,10 +3,15 @@ import '../Gallery.css';
 
 import React from 'react';
 
+import SubNav from '../../Components/SubNav/SubNav';
+
 function Digital () {
     return(
-        <div className = "container darkText bold"> 
-            Gallery Coming Soon!
+        <div className = "galleryContainer"> 
+            <SubNav />
+            <div className = "darkText bold container">
+                Digital Gallery Coming Soon!
+            </div>
         </div>
     )
 }

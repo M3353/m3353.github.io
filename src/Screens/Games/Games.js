@@ -9,7 +9,7 @@ function Games () {
     return(
         <div className = "galleryContainer"> 
             <SubNav />
-            <div className = "darkText bold container">
+            <div className = "darkText medium mediumSize container">
                 Games Gallery Coming Soon!
             </div>
         </div>

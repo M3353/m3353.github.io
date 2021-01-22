@@ -14,8 +14,8 @@ function SubNav () {
 
     return(
         <div>
-            <div className = "heading bold darkText exLargeSize">artwork.</div>
-            <ul className = "subNav container smallSize bold highlightText">
+            <div className = "heading bold darkText largeSize">artwork.</div>
+            <ul className = "subNav smallSize bold highlightText">
                 <li className = "link">
                     <Link to="/traditional">
                         <animated.span style={style1} onMouseEnter={trigger1}> traditional </animated.span>
@@ -38,7 +38,7 @@ function SubNav () {
                     </Link>
                 </li>
             </ul>
-            <hr className="lightBackground"></hr>
+            <hr className="lightBackground" style={{ marginBottom: 40 }}></hr>
         </div>
     )
 }

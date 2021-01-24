@@ -1,0 +1,15 @@
+.sectionWrap{
+    flex: 1;
+    margin: 4%;
+    padding: 4%;
+}
+
+.header{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.description{
+    text-align: left;
+    max-width: 750px;
+}

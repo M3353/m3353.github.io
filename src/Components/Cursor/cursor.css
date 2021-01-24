@@ -1,0 +1,11 @@
+.cursor { 
+    z-index: 1000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--dark-color);
+    pointer-events: none;
+    overflow: hidden;   
+    transform: translate(0,0);
+    position: fixed;
+}

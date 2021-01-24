@@ -38,7 +38,7 @@ function Bounce({
 
         return () => {
             window.clearTimeout(timeoutId);
-        };
+    };
     }, [isToggled, timing]);
 
     const trigger = React.useCallback(() => {

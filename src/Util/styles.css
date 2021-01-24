@@ -15,17 +15,7 @@
 
 hr { border: none; height: 2px; margin: 20px auto;}
 ul { list-style: none;	margin-left: 0; padding-left: 0;}
-a { text-decoration: none; color: inherit }
-
-:root{
-    --light-background: #f9fbfb;
-    --dark-color: #222831;
-    --light-color: #495664;
-    --highlight-color: #119991;
-    --dark-highlight: #6decb9;
-
-    overflow: hidden;
-}
+a { transition: color 0.25s ease-in-out; text-decoration: none; color: inherit }
 
 /* Font Weights */
 
@@ -61,4 +51,17 @@ a { text-decoration: none; color: inherit }
     .mediumSize { font-size: 16px } 
     .largeSize { font-size: 32px} 
     .exLargeSize { font-size: 40px }
+}
+
+.contentWrap{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
